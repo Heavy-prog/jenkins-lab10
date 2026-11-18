@@ -28,6 +28,7 @@ pipeline {
                 echo 'Building the application'
                 sh 'npm run build'
                 sh 'ls -l dist'
+                sh 'sleep 40'
             }
         }
     }
